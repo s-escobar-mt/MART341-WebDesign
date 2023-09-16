@@ -2,4 +2,5 @@ what is an advantage to using a text editor?
 They are simple and accessible
 
 Is there an advantage of using a relative vs an absolute URL?
-A relative URL is relatively shorter than an absolute URL, and since they only work for files on the same path, are not affected by domain or directory changes
+A relative URL is relatively shorter than an absolute URL,
+and since they only work for files on the same path, are not affected by domain or directory changes
