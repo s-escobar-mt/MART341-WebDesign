@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+    <head>
+        <title>
+            Eyes Underwater
+        </title>
+        <!-- Define character set used-->
+        <meta charset="UTF-8">
+        <!-- Description of page-->
+        <meta name="description" content="This a a fake page for the fake company Eyes Under the Sea">
+        <!--Author Name-->
+        <meta name="author" content="Sydney Escobar">
+        <!-- Viewport Meta-->
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        
+        <style>
+            table, th, td {
+                border: 2px solid black;
+                border-collapse: collapse; 
+            }
+        </style>
+    </head>
+    <body>
+        <!--A header containing the fake company logo and logo text-->
+        <header>
+            <img src="images/logo.png" width="100" height="100" alt="Eyes Underwater Logo" title="Eyes Underwater Logo">
+            <img src="images/logotext.png" width="400" height="100" alt="Eyes Underwater Text" title="Eyes Underwater Text">
+        </header>
+        <!--A table of fake creature sightings-->
+        <p>
+            <h3>Reliable Record keeping for creature sightings in the vicinity</h3>
+            <table>
+                <tr>
+                    <th scope = 'col'>Place</th>
+                    <th scope = 'col'>Number of Sightings</th>
+                </tr>
+                <tr>
+                    <td>Peach Beach</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Green Bay</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Red Shore</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Crystal Lake</td>
+                    <td>1</td>
+                </tr>
+                
+            </table>
+        </p>
+        <!--Text Area-->
+        <p>
+            Any reports? Leave a comment and we'll look into it<br />
+            <textarea name="report" id="report" rows="10" cols="50" placeholder ="Type what you saw..."></textarea>
+        </p> 
+        <!--Checkbox list of "New Locations" to add to the list-->
+        <p>
+           Some Places Worth Adding to the List?
+           <br>
+           <input type="checkbox" name="new-location" value="SandyLagoon" /> Sandy Lagoon
+           <br>
+           <input type="checkbox" name="new-location" value="LakeTerry" /> Lake Terry
+           <br>
+           <input type="checkbox" name="new-location" value="SherryCoast" /> Sherry Coast
+           <br>
+           <input type="checkbox" name="new-location" value="Other" /> Other:
+           <input type="text" name="new-location">
+        </p>
+        <!--Fake subcription form-->
+        <p>
+            <form method="post" action="index.html">
+            Want to stay up to date with underwater activity in your area?
+            <br>
+            <input type="text" name="email" placeholder="Enter your email..."/>
+            <input type="submit" name="subscribe" value="Subscribe" />
+            </form>
+        </p>
+        <!--Helpfulness rating radio options-->
+        <p>
+            <label>How helpful would you rate this page?
+            <input id="helpful" type="radio" name="rating" value="h">
+            <label for="helpful">Helpful</label>
+            <input id="not-helpful" type="radio" name="rating" value="nh">
+            <label for="not-helpful">Not Helpful</label>
+            </label>
+        </p>
+    </body>
+</html>
