@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!--Site data-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Bird sounds and an animation">
+    <meta name="author" content="Sydney Escobar">
+    <meta name="keywords" content="Birds, nature">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds</title>
+    <style>
+         .page-block {background: rgba(206, 223, 220, 0.904);}
+         .centered {text-align: center;}
+         .bird {font-style: italic;}
+
+    </style>
+  </head>
+  <body>
+    <!-- This is the top of the page-->
+    <div id="Image" class="page-block centered">
+        <h1>Birds</h1>
+        <h2>Just a page about <span class="bird">birds</span></h2>
+        <img src="images/blurry-trees.jpg" height="535" width="700" alt="Blurry trees">
+    </div>
+  <!-- Audio saved locally-->
+  <div id="audio" class="page-block">
+    <p>Audio sourced from <a href="https://pixabay.com/sound-effects/search/bird%20chirp/"> Pixabay</a></p>
+    <audio src="./media/forest-bird-sounds.mp3" type="audio/mpeg" preload="auto" controls loop>
+    
+        <p>Forest bird sounds</p>
+        <p> Your browser does not support this audio</p>
+    </audio>
+    </div>
+    <!--Bird animation-->
+    <div id="animation" class="page-block centered">
+        <h2>A Little Video</h2>
+       <video src = "media/birds.mp4" poster="images/birds-poster.jpg" height="404" width="540" preload="auto" loop>
+        <p>A black-and-white bird flying animation</p>
+        <p>Sorry, your browser does not support the video tag.</p>
+       </video>
+    </div>
+    <!--iFrame to National Geographic page on birds-->
+    <div id="NatGeo" class="centered page-block">
+        <h2>National Geographic</h2>
+        <iframe src="https://www.nationalgeographic.com/animals/birds" height="500" width = "600">
+            <p>Link to https://www.nationalgeographic.com/animals/birds, a page about birds</p>
+            <p>Format not supported</p>
+        </iframe>
+    </div>
+    </body>
+
+</html>
