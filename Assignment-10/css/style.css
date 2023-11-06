@@ -29,7 +29,7 @@ body {
 
 /*Spaces the images a little bit away from the left side*/
 img{
-    position: absolute;
+    position: relative;
     left: 10px;
     width:500px;
     
