@@ -1,0 +1,67 @@
+/*Set up for fonts*/
+div {
+    font-family: UbuntuMono, Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+/**/
+body {
+    background-color: aliceblue;
+}
+
+/**/
+.title {
+    background-color: rgb(69, 107, 141);
+    color:aliceblue;
+    padding: 20px;
+}
+
+/* Positions images to the left of other elements*/
+img{
+    float:left;
+    max-width: 400px;
+    min-width: 100px;
+    min-height: 100px;
+    max-height: 400px;
+    padding-inline-end: 10px;
+    position: relative;
+
+}
+
+/*Increases the font size*/
+.info{
+    font-size: 2em;
+}
+
+/* Colors alice's speaking parts blue*/
+.alice {
+    color:blue;
+    font-size: 1.5em;
+}
+
+/* Colors links forest green */
+a {
+    color: forestgreen;
+}
+
+/* Hides text in the title block */
+.insult {
+    color:  rgb(69, 107, 141);
+}
+
+/* Hides text elsewhere on the page */
+.secret {
+    color:aliceblue;
+}
+
+/* Turns text red when hovered over */
+.insult:hover {
+    color:brown;
+}
+
+/* Reveals secret with a green text */
+.secret:hover{
+    color:rgb(15, 223, 123);
+    font-style:italic;
+}
+
