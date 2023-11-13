@@ -4,12 +4,12 @@ div {
     font-style: normal;
 }
 
-/**/
+/* Makes background alice blue*/
 body {
     background-color: aliceblue;
 }
 
-/**/
+/* Makes a title section*/
 .title {
     background-color: rgb(69, 107, 141);
     color:aliceblue;
