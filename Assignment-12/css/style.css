@@ -1,0 +1,101 @@
+/*Set up the fonts, base spacing, and background color*/
+body {
+    font-size: 16px;
+    font-family: UbuntuMono, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 154, 142);
+}
+
+/*Sets up the top bar*/
+header {
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    height: 4 em;
+    width:100%;
+    margin-top: 0;
+    margin-bottom: 6em;
+    text-align: left;
+    background-color: rgb(186, 54, 54);
+}
+
+/*Sets up title of the page*/
+.title {
+    top:0em;
+    font-size: x-large;
+    display:inline-block;
+    padding: 0em 1em;
+}
+
+/*Sets up the top bar options*/
+.header-options {
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 1em auto;
+    background-color:none;
+    display:inline-block;
+    padding: .5em 1em;
+
+}
+
+/*Sets up the top bar options links*/
+.header-options a{
+    color:antiquewhite;
+    text-emphasis-style: bold;
+    text-decoration: none;
+}
+
+/*Sets up the top bar options to change color when hovered over*/
+.header-options:hover, a:hover {
+    background-color: rgb(230, 154, 142);
+    color: rgb(186, 54, 54);
+}
+
+/*Sets up the image to be a circle*/
+img{
+    position:relative;
+    height: 400px;
+    display:inline-block;
+    margin-left:2em;
+    border-radius: 100%;
+}
+
+/*
+Sets up the blocks for content to be rounded rectangles with text aligned 
+in the center. It will have a scroll bar for overflowing text.
+*/
+.block {
+    position:relative;
+    border: 0px ;
+    border-radius: 30%;
+    margin: 2em;
+    width: 30%;
+    height: 10em;
+    max-width: 350px;
+    min-width: 270px;
+    background-color: rgb(255, 255, 255, .65);
+    padding: 2em;
+    text-align: center;
+    overflow: scroll;
+    display:inline-block;
+}
+
+/*
+Sets up secondary blocks for content to be rounded rectangles with text aligned 
+in the center. It will have a scroll bar for overflowing text. This one is wider.
+*/
+.block2 {
+    position:relative;
+    border: 0px ;
+    margin: 2em;
+    border-radius: 30%;
+    width: 50%;
+    height: 15em;
+    max-width: 700px;
+    min-width: 350px;
+    background-color: rgb(255, 255, 255, .65);
+    padding: 2em;
+    text-align: center;
+    overflow: scroll;
+}
