@@ -1,0 +1,1 @@
+Made more mobile friendly website
